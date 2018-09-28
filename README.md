@@ -31,5 +31,7 @@ La imagen Docker de la aplicación también esta disponible y se puede accerder 
 El desarrollo de este ejercicio fue llevado a cabo gracias a 
 
 Bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+
 Shane Osbourne [Docker Configuration](https://medium.com/@shakyShane/lets-talk-about-docker-artifacts-27454560384f).
+
 Shakhor Smith [Deploy your React App To Heroku](https://dev.to/smithmanny/deploy-your-react-app-to-heroku-2b6f).
