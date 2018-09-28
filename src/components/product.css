@@ -1,0 +1,18 @@
+@import '~bulma/css/bulma.css';
+
+figure.is-centered {
+    margin: 0 auto;
+}
+
+.product {
+    border-radius: 5px
+}
+
+.product .table {
+    margin-top: 1.5rem
+}
+
+.product .card-content {
+    margin-bottom: 1.5rem
+}
+  
