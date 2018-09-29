@@ -19,7 +19,7 @@ Para visualizar la aplicación desplegada en tiempo real se puede acceder dando 
 La imagen Docker de la aplicación también esta disponible y se puede accerder mediante los siguientes pasos.
 
 1. En la línea de comandos insertar el siguiente código
-```docker run -p 8080:80 sebaspelaez/empresariales-exercise```
+```docker run -p 8080:80 sebaspelaez/empresariales-exercise:2.0```
 2. Ingresar en el navegador 
 ``` localhost:8080 ```
 3. Para finalizar la ejecución del contenedor se presiona conjuntamente las teclas
