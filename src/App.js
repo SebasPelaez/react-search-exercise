@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Product from './components/Product'
 
 class App extends Component {
 
@@ -40,11 +39,36 @@ class App extends Component {
               ¿Qué deseas buscar?:
             <input type="text" value={this.state.searchValue} onChange={this.handleChange} />
             </label>
-            <input type="submit" value="Submit" />
+            <input type="submit" value="Buscar" />
           </form>
         </div>
         <div className="product-list">
-          {this.state.products.map((product, index) => <Product key={index} url={product} />)}
+          {this.state.products.map((product, index) => 
+            <div className="card product">
+              <div className="card-image">
+                  <figure className="image is-128x128 is-centered">
+                      <img
+                          src={product.thumbnail}
+                          alt="Product" />
+                  </figure>
+              </div>
+              <div className="card-content">
+                  <div className="media-content">
+                      <p className="title is-5">{product.title}</p>
+                  </div>
+                  <table className="table is-narrow is-fullwidth">
+                      <tbody>
+                          <tr>
+                              <td className="has-text-bold">Precio: {product.price}$</td>
+                          </tr>
+                          <tr>
+                              <td className="has-text-bold">Disponibles: {product.available_quantity}</td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     );

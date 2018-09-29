@@ -25,6 +25,23 @@
   grid-template-columns: repeat(3, 32%);
   justify-content: center;
   grid-gap: 1rem;
+  margin-top: 5px;
+}
+
+figure.is-centered {
+  margin: 0 auto;
+}
+
+.product {
+  border-radius: 5px
+}
+
+.product .table {
+  margin-top: 1.5rem
+}
+
+.product .card-content {
+  margin-bottom: 1.5rem
 }
 
 @keyframes App-logo-spin {
